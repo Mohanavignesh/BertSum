@@ -7,7 +7,7 @@ from torch.nn.init import xavier_uniform_
 from models.encoder import TransformerInterEncoder, Classifier, RNNEncoder
 from models.optimizers import Optimizer
 #日本語モデル
-from transformers.modeling_bert import BertForMaskedLM
+
 
 def build_optim(args, model, checkpoint):
     """ Build optimizer """
